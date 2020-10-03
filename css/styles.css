@@ -91,7 +91,7 @@ body {
 @media (max-width:506px) {
     #heading {
         font-size: 35px;
-        margin-left: 40px;
+        margin-left: 0px;
     }
 
 #carousal {
