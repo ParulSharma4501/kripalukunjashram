@@ -11,7 +11,7 @@
 
     <!--    GOOGLE FONTS-->
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
 
 
 
@@ -34,100 +34,75 @@
 <body>
     <div id="vanta">
         <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
-           
-            
+
+
             <a class="navbar-brand" href="#"><img src="photos/logo.png" width="180" height="80" class="ml-3"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                                                            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                                                            <a class="nav-item nav-link" href="#">About</a>
-                                                            <a class="nav-item nav-link" href="#">Satsang</a>
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Satsang</a>
                     <!--                    <a class="nav-item nav-link disabled" href="#">Disabled</a>-->
                 </div>
             </div>
         </nav>
 
-        <div class="container" id="box" >
-            <div class="row glow" id="heading">
-                Shree Kripalu Kunj Ashram.
+        <div class="container" id="box">
+
+            <div class="row glow">
+                <div class="col-12" id="heading">
+                    Shree Kripalu Kunj Ashram.
+                </div>
             </div>
- 
-       <div class="row bg-light mt-4" id="container">
-                <div class="col-md-3" id="image">
+            <div class="row  bg-light mt-4" id="container">
+                <div class="col-3  " id="image">
                     <img src="photos/k.png" width="380" height="400" style="border-radius: 50%">
                 </div>
-                   
-                    <div class="col-md-5 mt-5" id="carousal">
-                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active" id="top-content">
-                                   Learn about our Spiritual Master and the world's fifth original Jagadguru, Shri Kripalu Ji Maharaj, what we teach, our mission, the many locations where satsang is being conducted,learn what is Bhakti,Who is a true Guru and Radha Krishna the Divine Couple.
-                                </div>
-                                <div class="carousel-item" id="top-content">
-                                    For the benefit of the devotees, by the grace of Shri Radha Krishna and Jagadguru Shri Kripalu Ji Maharaj, Didi ji has established this ashram in bathinda, where devotees of all walks of life, ethnicity and backgrounds regularly gather to praise God and Guru.
-                                </div>
-                                <div class="carousel-item" id="top-content">
-                                   The word jagad (जगद्) means the entire world. Guru (गुरू) means the one capable of dispelling our ignorance and granting divine knowledge. Such a Spiritual Master who is unanimously accepted by all spiritual scholars of his age as the supreme spiritual teacher is called a Jagadguru.
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
-                     <div class="col-md-4" id="image">
+
+                <div class="col-lg-5 col-sm-12 mt-5 " id="top-content">
+                    For the benefit of the devotees, by the grace of <br> Shri Radha Krishna and Jagadguru Shri Kripalu <br> Ji Maharaj, Didi ji has established this ashram <br> in bathinda, where devotees of all walks of life, <br> ethnicity and backgrounds regularly gather to <br> praise God and Guru.
+                </div>
+                <div class="col-lg-4  col-sm-12" id="image">
                     <img src="photos/d.jpeg" width="350" height="380" class="mt-3" style="border-radius: 50%">
                 </div>
-                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
 
-          <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+       <script src="three.r119.min.js"></script>
+            <script src="vanta.fog.min.js"></script>
+
+            <script>
+                VANTA.FOG({
+                    el: "#vanta",
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: false,
+                    minHeight: 200.00,
+                    minWidth: 200.00,
+                    speed: 1.40
+                })
+
+            </script>
+
+
+
         </div>
-        
-        <!--
-        <div class="container">
-            
-        </div>
--->
-
-        <script src="three.r119.min.js"></script>
-        <script src="vanta.fog.min.js"></script>
-
-        <script>
-            VANTA.FOG({
-                el: "#vanta",
-                mouseControls: true,
-                touchControls: true,
-                gyroControls: false,
-                minHeight: 200.00,
-                minWidth: 200.00,
-                speed: 1.40
-            })
-
-        </script>
-
-
-
-    </div>
 
 </body>
 
 </html>
+
