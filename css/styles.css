@@ -49,7 +49,7 @@ body {
     text-align: center;
     font-weight: bolder;
     font-family: 'Sacramento', cursive;
-    margin-left: 250px;
+/*    margin-left: 250px;*/
     padding-top: 30px;
     /*    color:white;*/
 }
@@ -63,6 +63,9 @@ body {
     /*    margin-top: 40px;*/
     font-family: 'Balsamiq Sans', cursive;
     color: #940073;
+    height: 250px;
+    opacity: 90%;
+    text-align: center
 }
 
 .carousel-item {
@@ -81,8 +84,7 @@ body {
 }
 */
 #carousal {
-    height: 250px;
-    opacity: 90%;
+    
     /*    border:3px solid pink;*/
 
 }
@@ -91,18 +93,17 @@ body {
 @media (max-width:506px) {
     #heading {
         font-size: 35px;
-        margin-left: 0px;
+text-align: left;
     }
 
-#carousal {
-    height: 450px;
-    opacity: 90%;
-    width:100%;
-    /*    border:3px solid pink;*/
-
-  word-wrap: break-word;
+#image {
+    margin-left:80px;
+    }
+    #top-content {
+    
+    text-align: left;
+        margin-left: 20px;
+}
 
 }
 
-
-}
